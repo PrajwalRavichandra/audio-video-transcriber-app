@@ -1,5 +1,7 @@
 # OpenRouter Audio Transcriber
 
+![App screenshot](screenshots/App_Primary.png)
+
 A static single-page app that turns long audio files into a single stitched text
 transcript. Everything runs in the browser — files are decoded, chunked, sent to
 OpenRouter's transcription API, and reassembled into one transcript.
