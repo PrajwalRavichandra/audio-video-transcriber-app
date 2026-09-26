@@ -2,6 +2,8 @@
 
 ![App screenshot](screenshots/App_Primary.png)
 
+*Transcription in progress — drop a file, pick a model, and get a stitched transcript.*
+
 A static single-page app that turns long audio files into a single stitched text
 transcript. Everything runs in the browser — files are decoded, chunked, sent to
 OpenRouter's transcription API, and reassembled into one transcript.
@@ -83,6 +85,10 @@ idle → loading → planning → processing(chunk i/n) → stitching → done
 7. **Present** — read-only transcript with copy/download and a cost summary.
 
 Media work runs inside a Web Worker so the UI stays responsive.
+
+![App with dev tools open](screenshots/App_with_dev_tools_open.png)
+
+*The same run with DevTools open — showing the OpenRouter API calls and in-browser processing.*
 
 ## Project structure
 
